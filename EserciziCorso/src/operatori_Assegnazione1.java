@@ -1,5 +1,5 @@
 public class operatori_Assegnazione1 {
-    public static void main (String arg[]){
+    public static void main (String args[]){
         int a = 10;
         int b = 20;
           System.out.println(resultOfOperation(a,b));
