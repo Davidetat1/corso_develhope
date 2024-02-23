@@ -17,7 +17,5 @@ public class if_Else2 {
         } else {
             System.out.println("la stringa " + mioNome + " è uguale a 10 caratteri");
         }
-
-
     }
 }
