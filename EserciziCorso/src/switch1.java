@@ -19,16 +19,19 @@ public class switch1 {
                 break;
             case 2:
                 nomeGiorno = "Martedi";
+                break;
             case 3:
                 nomeGiorno = "Mercoledi";
                 break;
             case 4:
                 nomeGiorno = "Giovedi";
+                break;
             case 5:
                 nomeGiorno = "Venerdi";
                 break;
             case 6:
                 nomeGiorno = "Sabato";
+                break;
             case 7:
                 nomeGiorno = "Domenica";
                 break;
