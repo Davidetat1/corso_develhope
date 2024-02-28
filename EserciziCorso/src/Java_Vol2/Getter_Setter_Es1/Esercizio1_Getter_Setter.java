@@ -2,7 +2,7 @@
 Per questa classe saranno necessari i metodi accessori (getters e setters) ed un costruttore.
 Nel main dichiarare un oggetto di tipo Studente.*/
 
-package Java_Vol2;
+package Java_Vol2.Getter_Setter_Es1;
 
 public class Esercizio1_Getter_Setter {
     public static void main (String args[]){
