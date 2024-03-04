@@ -3,7 +3,7 @@
  Crea poi una sottoclasse chiamata Gatto che fa override del metodo faiIlVerso()
  per miagolare. Prova quindi a far stampare il verso di Animale e di Gatto.*/
 
-package java_vol3.ereditarità;
+package java_vol3.ereditarità.Es1;
 
 public class Animale {
     public void faiIlVerso() {
