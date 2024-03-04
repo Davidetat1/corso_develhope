@@ -1,4 +1,4 @@
-package java_vol3.ereditarità.es1;
+package java_vol3.ereditarieta.es1;
 
 public class Gatto extends Animale {
 
