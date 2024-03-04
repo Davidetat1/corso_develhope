@@ -7,11 +7,8 @@ per calcolare l'area del rettangolo.
 package java_vol3.ereditarità.es2;
 
 public class Forma {
-    public void calcolaArea() {
-        System.out.println("il calcolo dell'area è della forma");
-    }
-    public static void main(String[] args){
-        Rettangolo rettangolo = new Rettangolo(10,3);
-        rettangolo.calcolaArea();
+    public double calcolaArea() {
+        System.out.println("non puoi calcolare l'area di una forma generica");
+        return 0;
     }
 }
