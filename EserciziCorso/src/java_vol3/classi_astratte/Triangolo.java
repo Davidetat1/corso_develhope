@@ -2,8 +2,8 @@ package java_vol3.classi_astratte;
 
 public class Triangolo extends Forma {
 
-    private float base;
-    private float altezza;
+    protected float base;
+    protected float altezza;
 
     public Triangolo(float base, float altezza) {
         this.base = base;
