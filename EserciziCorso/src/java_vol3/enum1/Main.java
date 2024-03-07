@@ -9,7 +9,7 @@ public class Main {
     public static void main (String[] args){
         Rettangolo rettangolo = new Rettangolo(3,6);
         Triangolo triangolo = new Triangolo( 4,5);
-        System.out.println("Area Rettangolo: " + rettangolo.calcolaArea());
-        System.out.println("Area Triangolo: " + triangolo.calcolaArea());
+        System.out.println("L'area del: " + rettangolo.getTipoForma() + " è: " + rettangolo.calcolaArea());
+        System.out.println("L'area del: " + triangolo.getTipoForma() + " è: " + triangolo.calcolaArea());
     }
 }
