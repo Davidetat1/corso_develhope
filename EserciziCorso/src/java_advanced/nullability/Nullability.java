@@ -6,27 +6,34 @@ Usare la funzione appena scritta in due blocchi di codice dove si cattura l'even
 package java_advanced.nullability;
 
 public class Nullability {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Integer numeratore = 4;
         Integer denomitatore = null;
 
         try {
-           checkNumDen(numeratore,denomitatore);
-           divisione(numeratore, denomitatore);
+            //checkNumDen(numeratore,denomitatore);
+            divisione(numeratore, denomitatore);
         } catch (ArithmeticException e) {
             System.out.println("Eccezione del primo blocco di codice: " + e.getMessage());
         } catch (NullPointerException e) {
             System.out.println("Eccezione del secondo blocco di codice: " + e.getMessage());
         }
-}
-    public static void checkNumDen(Integer numeratore, Integer denominatore){
+    }
+   /* public static void checkNumDen(Integer numeratore, Integer denominatore){
         if (numeratore == null || denominatore == null) {
            throw new NullPointerException("Numeratore o Denominatore null");
+
         }
     }
 
+     ( avevo inizialmente fatto cosi, creando due funzioni, poi leggendo meglio la traccia
+      ho provato ad unire il tutto in unica funzione )
+*/
 
-    public static void divisione(Integer numeratore, Integer denominatore){
+    public static void divisione(Integer numeratore, Integer denominatore) throws Exception{
+        if (numeratore == null || denominatore == null) {
+            throw new NullPointerException("Numeratore o Denominatore null");
+        }
         if (denominatore == 0) {
             throw new ArithmeticException("Errore: divsione per 0");
         }
