@@ -8,11 +8,11 @@ package java_advanced.nullability;
 public class Nullability {
     public static void main(String[] args) throws Exception {
         Integer numeratore = 4;
-        Integer denomitatore = null;
+        Integer denominatore = null;
 
         try {
             //checkNumDen(numeratore,denomitatore);
-            divisione(numeratore, denomitatore);
+            divisione(numeratore, denominatore);
         } catch (ArithmeticException e) {
             System.out.println("Eccezione del primo blocco di codice: " + e.getMessage());
         } catch (NullPointerException e) {
