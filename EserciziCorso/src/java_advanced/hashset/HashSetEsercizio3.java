@@ -1,15 +1,11 @@
 /*
-
 Create la struttura, La popolate e poi implementate una ricerca nel set a partire da un valore di input,
 se lo trovate allora lo togliete dal set. Fate in modo di trovare
 tutti i valori con cui avete popolato il set in modo che rimanga vuoto.
 A quel punto stampate il set per vedere che sia effettivamente vuoto.
-
 */
 
-
 package java_advanced.hashset;
-
 import java.util.HashSet;
 import java.util.Iterator;
 
