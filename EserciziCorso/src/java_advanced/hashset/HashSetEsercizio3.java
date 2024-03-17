@@ -5,7 +5,7 @@ se lo trovate allora lo togliete dal set. Fate in modo di trovare
 tutti i valori con cui avete popolato il set in modo che rimanga vuoto.
 A quel punto stampate il set per vedere che sia effettivamente vuoto.
 
- */
+*/
 
 
 package java_advanced.hashset;
@@ -23,7 +23,7 @@ public class HashSetEsercizio3 {
 
         System.out.println("HashSet creato: " + names);
 
-        String valoreInput1 = "Davide";
+        String valoreInput1 = "Davide";          //1a ricerca nel set per trovare il valore di input ed eliminarlo.
         Iterator<String> iterator = names.iterator();
         while (iterator.hasNext()) {
             String valore = iterator.next();
@@ -35,7 +35,7 @@ public class HashSetEsercizio3 {
 
         System.out.println("HashSet dopo la ricerca e rimozione del valore: \"" + valoreInput1 + "\" " + names);
 
-        String valoreInput2 = "Marco";
+        String valoreInput2 = "Marco";   //2a ricerca nel set
         iterator = names.iterator();
         while (iterator.hasNext()) {
             String valore = iterator.next();
@@ -47,7 +47,7 @@ public class HashSetEsercizio3 {
 
         System.out.println("HashSet dopo la ricerca e rimozione del valore: \"" + valoreInput2 + "\" " + names);
 
-        String valoreInput3 = "Luca";
+        String valoreInput3 = "Luca";     //3a ricerca nel set
         iterator = names.iterator();
         while(iterator.hasNext()){
             String valore = iterator.next();
