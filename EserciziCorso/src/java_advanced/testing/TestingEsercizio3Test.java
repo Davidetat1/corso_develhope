@@ -12,11 +12,13 @@ class TestingEsercizio3Test {
 
     @Test
     public void testFormatterDate() {
+        TestingEsercizio3 testing = new TestingEsercizio3();
+
         OffsetDateTime data = OffsetDateTime.parse("2023-03-01T13:00:00Z");
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMMM yyyy");
 
         String expected = "01 marzo 2023";
-        String actual = TestingEsercizio3.formatterDate(data, formatter);
+        String actual = testing.formatterDate(data, formatter);
 
         assertEquals(expected, actual);
     }

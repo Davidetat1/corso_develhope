@@ -13,16 +13,18 @@ import java.time.format.DateTimeFormatter;
 
 public class TestingEsercizio3 {
     public static void main(String[] args) {
+        TestingEsercizio3 tester = new TestingEsercizio3();
+
         OffsetDateTime data = OffsetDateTime.parse("2023-03-01T13:00:00Z");
         System.out.println("data originale: " + data);
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMMM yyyy");
-        String dataString = formatterDate(data, formatter);
+        String dataString = tester.formatterDate(data, formatter);
         System.out.println("data formattata " + dataString);
 
     }
 
-    static String formatterDate(OffsetDateTime data, DateTimeFormatter formatter) {
+    String formatterDate(OffsetDateTime data, DateTimeFormatter formatter) {
         return data.format(formatter);
     }
 
